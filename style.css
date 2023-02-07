@@ -1,0 +1,105 @@
+#mblog{
+       
+background-color: #1c1c1c;
+	color: #77e1cd;
+	padding:10px;
+	border: 2px solid #8b8b8b ;
+	border-radius: 10px 10px 10px 10px;
+	font-size:2rem;
+}
+
+#blog{
+	font-size:60px;
+;	color:#c0ecf5;
+}
+#date {
+	color:#c6c8c1;
+}
+
+li{   color:white;}
+
+footer{ 
+	text-align: center;    
+	bottom: 0px; 
+	width: 100%;
+} 
+a:link , a:visited{ 
+
+	font-size:2rem;
+	color: #77e1cd;
+}
+body{
+	background-color: #1c1c1c ;
+}
+p{			    color: #e1e0e2;
+ext-align:center;}
+
+
+@media screen and (min-width: 601px) {
+}
+h1{
+	text-align: center;
+	font-size: 6rem;
+	padding:2rem ;
+}
+h2{
+	color: #c0ecf5;
+	text-align:center ;
+	padding:1rem ;
+	font-size:2rem;
+}
+														}	
+														@media screen and (max-width: 600px) {
+															h1{
+																text-align: center;
+																font-size:3rem;
+																padding:1rem;
+															}
+															h2{
+																color: #e1e0e2;
+																text-align:left;
+																padding:1rem ;
+																font-size:2rem;
+															}	
+														}
+														#hamnav {
+															width: 100%;
+															background: #000;
+															position: sticky;
+															top: 0;
+														}
+														#hamnav label, #hamburger { display: none; }
+														#hamitems { display: flex; }
+														#hamitems a {
+															width: 20%; /* 100% / 5 tabs = 20% */
+															padding: 10px;
+															font-size: 1rem;
+															color: white;
+															text-decoration: none;
+															text-align: center;
+														}
+														#hamitems a:hover {
+															background: #401408;
+														}
+														@media screen and (max-width: 768px){
+															#hamnav label { 
+																display: inline-block; 
+																color: white;
+																background: black;
+																font-style: normal;
+																padding: 5px;
+																font-size:2rem;
+															}
+															#hamitems a {
+																box-sizing: border-box;
+																display: block;
+																width: 100%;
+
+																border-top: 1px solid #333;
+															}
+															#hamitems { display: none; }
+															#hamnav input:checked ~ #hamitems { display: block; }
+														}
+
+
+
